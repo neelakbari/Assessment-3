@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 10% 0;
+    background-color: rgb(230,233,236);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-wrapper{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3,169,244);
+    border-radius: 50%;
+    color: white;
+}
+.form-floatin{
+    position: relative;
+}
+.form-floatin i{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.form-floatin input{
+    padding-left: 2rem !important;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, .2) inset , -3px -2px 5px rgba(155, 155, 155, .2) inset;
+    border-radius: 15px;
+}
+.submit_btn{
+    background-color: rgb(3,169,244) !important;
+    color: white !important ;
+}
